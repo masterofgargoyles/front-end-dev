@@ -1,0 +1,32 @@
+start tag <html> and an end tag </html>.
+
+The <body> element defines the document's body.
+
+The <br> tag defines a line break, and is an empty element without a closing tag:
+<p>This is a <br> paragraph with a line break.</p>
+
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+<img src="img_girl.jpg">
+
+The title attribute defines some extra information about an element.
+<p title="I'm a tooltip">This is a paragraph.</p>
+
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a> --- Recomended with double quotes in href
+
+HTML headings are defined with the <h1> to <h6> tags.
+<h1> defines the most important heading. <h6> defines the least important heading.
+
+Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property:
+<h1 style="font-size:60px;">Heading 1</h1>
+
+The HTML <pre> element defines preformatted text.
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+<pre>
+  My Bonnie lies over the ocean.
+  My Bonnie lies over the sea.
+  My Bonnie lies over the ocean.
+  Oh, bring back my Bonnie to me.
+</pre>
+

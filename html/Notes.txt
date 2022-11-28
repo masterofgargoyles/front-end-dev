@@ -30,3 +30,23 @@ The text inside a <pre> element is displayed in a fixed-width font (usually Cour
   Oh, bring back my Bonnie to me.
 </pre>
 
+The HTML <mark> element defines text that should be marked or highlighted:
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+The HTML <del> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:
+<p>My favorite color is <del>blue</del> red.</p>
+
+The HTML <sub> element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
+<p>This is <sub>subscripted</sub> text.</p>
+
+The HTML <sup> element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
+<p>This is <sup>superscripted</sup> text.</p>
+
+Use target="_blank" to open the linked document in a new browser window or tab:
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):
+<a href="mailto:someone@example.com">Send email</a>
+
+
+

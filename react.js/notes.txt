@@ -1,0 +1,9 @@
+- nodejs is required by the host computer as javascript can be ran without the browser.
+
+- npx create-react-app my-app
+cd my-app
+npm start
+
+- react is a library, but it is reffered as a framework.
+
+- it is a component based structure

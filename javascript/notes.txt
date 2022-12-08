@@ -1,0 +1,4 @@
+- there are three types of variable declarion var,let,const
+
+- numbers,objects,booleans,string,undefined,null - datatypes for javascript.
+

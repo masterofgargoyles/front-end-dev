@@ -7,5 +7,3 @@ npm start
 - react is a library, but it is reffered as a framework.
 
 - it is a component based structure
-
-- components

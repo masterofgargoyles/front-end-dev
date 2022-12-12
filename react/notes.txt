@@ -7,3 +7,11 @@ npm start
 - react is a library, but it is reffered as a framework.
 
 - it is a component based structure
+
+- a custom component can use user input and make spicified calculations or changes based on input.
+
+- default export and named export
+
+- proptypes can tell you what the datatype of the passed proptypes
+
+- 

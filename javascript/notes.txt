@@ -2,3 +2,11 @@
 
 - numbers,objects,booleans,string,undefined,null - datatypes for javascript.
 
+- var was used in code which was before ES6
+
+- var can be update and can be redeclared however let can be updated but not redeclared.
+
+- const cannot be updated and cannot be redeclared.
+
+- 
+

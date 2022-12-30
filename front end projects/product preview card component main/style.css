@@ -7,5 +7,81 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
-    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 0.1px);
+    margin : 0 1.5rem;
+}
+
+.container {
+    max-width: 500px;
+}
+
+.product-name {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    margin-bottom: 1rem;
+}
+
+* {
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width :100%;
+}
+
+h2,p{
+    color : hsl(228, 12%, 48%)
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.6rem;
+}
+
+p {
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+ul{
+    list-style-type:none;
+    margin-bottom: 1rem;
+}
+
+.container article:first-child img{
+    border-radius: 0.8rem 0.8rem 0 0 ;
+}
+
+.container article:last-child{
+    background-color: white;
+    border-radius: 0 0 0.8rem 0.8rem;
+    margin-top: -0.3rem;
+    padding: 1rem;
+}
+
+.container ul li:first-child{
+    font-size: 2rem;
+}
+
+.container ul li:last-child{
+    text-decoration :line-through;
+    padding-left: 0.5rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    display: flex;
+    align-items: center;
 }

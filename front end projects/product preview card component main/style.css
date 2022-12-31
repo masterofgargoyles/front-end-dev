@@ -25,6 +25,7 @@ body {
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
     margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 * {
@@ -46,6 +47,7 @@ h2 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     padding-top: 0.6rem;
+    letter-spacing: 4px;
 }
 
 p {
@@ -84,4 +86,27 @@ ul{
     color: hsl(158, 36%, 37%);
     display: flex;
     align-items: center;
+}
+
+.container .btn{
+    background-color:hsl(158, 36%, 37%);
+    color : white;
+    font-weight: 700;
+    padding: 1.3rem 2rem 1.3rem 2rem;
+    width : 100%;
+    border-radius: 0.8rem;
+    border: none;
+    outline : none;
+    cursor : pointer;
+    transition : 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+.container .btn:hover{
+    background-color: hsl(157, 38%, 18%);
 }
